@@ -4,12 +4,13 @@ import githubIcon from "../../assets/github.svg"
 import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll"
 import video from "../../assets/Tools.mp4";
+import "./project.css"
 
 export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
-      <div className="projects">
+      <div className="projectsnew">
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -29,46 +30,44 @@ export function Project() {
             <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
           </div>
         </ScrollAnimation> */}
-
-<div style={{height:'600px',width:'25px'}} className="project-card">
-        <header className="project-card-header">
-          <video autoPlay muted loop playsInline className="project-video">
+        <div className="glasseff">
+<div  style={{display:'flex',borderRadius:'30px',marginTop:'-0.2%'}} className="project-cardnew">
+       <div style={{height:'100%',width:'50%'}}>
+          <video autoPlay muted loop  style={{height:'100%',width:'100%',marginTop:'1%',marginLeft:'2%',borderRadius:'2px'}}>
             <source src={video} type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
-        </header>
-        <div className="project-body">
+          
+        </div>
+        <div style={{marginLeft:'2%',padding:'2%',width:'60%',color:'black'}} className="project-bodynew">
           <h3>Project Title</h3>
           <p>Project description goes here...</p>
+          <h1> vishnu kena punda</h1>
         </div>
       </div>
 
-      <div style={{height:'600px',width:'25px'}} className="project-card">
-        <header className="project-card-header">
-          <video autoPlay muted loop playsInline className="project-video">
+      </div>
+      
+
+      <div className="glasseff">
+<div  style={{display:'flex',borderRadius:'30px',marginTop:'-0.2%'}} className="project-cardnew">
+       <div style={{height:'100%',width:'50%'}}>
+          <video autoPlay muted loop  style={{ height:'100%',width:'100%',marginTop:'1%',marginLeft:'2%',borderRadius:'2px'}}>
             <source src={video} type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
-        </header>
-        <div className="project-body">
-          <h3>Project Title</h3>
-          <p>Project description goes here...</p>
+          
         </div>
-      </div>
-      <div style={{height:'600px',width:'25px'}} className="project-card">
-        <header className="project-card-header">
-          <video autoPlay muted loop playsInline className="project-video">
-            <source src={video} type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-        </header>
-        <div className="project-body">
+        <div style={{marginLeft:'2%',width:'60%',color:'black'}} className="project-bodynew">
           <h3>Project Title</h3>
           <p>Project description goes here...</p>
+          <h1> vishnu kena punda</h1>
         </div>
       </div>
 
+      </div>
 
+     
 
 
       </div>
