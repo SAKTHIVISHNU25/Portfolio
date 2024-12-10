@@ -1,17 +1,16 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
+import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
-import externalLink from "../../assets/external-link.svg"
-import ScrollAnimation from "react-animate-on-scroll"
+import externalLink from "../../assets/external-link.svg";
+import ScrollAnimation from "react-animate-on-scroll";
 import video from "../../assets/Tools.mp4";
-import "./project.css"
+import "./project.css";
 
 export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projectsnew">
-
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -31,45 +30,83 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
         <div className="glasseff">
-<div  style={{display:'flex',borderRadius:'30px',marginTop:'-0.2%'}} className="project-cardnew">
-       <div style={{height:'100%',width:'50%'}}>
-          <video autoPlay muted loop  style={{height:'100%',width:'100%',marginTop:'1%',marginLeft:'2%',borderRadius:'2px'}}>
-            <source src={video} type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-          
+          <div
+            style={{
+              display: "flex",
+              borderRadius: "30px",
+              marginTop: "-0.2%",
+            }}
+            className="project-cardnew"
+          >
+            <div style={{ height: "100%", width: "50%" }}>
+              <video
+                autoPlay
+                muted
+                loop
+                style={{
+                  height: "100%",
+                  width: "100%",
+                  marginTop: "1%",
+                  marginLeft: "2%",
+                  borderRadius: "2px",
+                }}
+              >
+                <source src={video} type="video/mp4" />
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+            <div
+              style={{
+                marginLeft: "2%",
+                padding: "2%",
+                width: "60%",
+                color: "black",
+              }}
+              className="project-bodynew"
+            >
+              <h3>Project Title</h3>
+              <p>Project description goes here...</p>
+              <h1> vishnu Hello World</h1>
+            </div>
+          </div>
         </div>
-        <div style={{marginLeft:'2%',padding:'2%',width:'60%',color:'black'}} className="project-bodynew">
-          <h3>Project Title</h3>
-          <p>Project description goes here...</p>
-          <h1> vishnu kena punda</h1>
+
+        <div className="glasseff">
+          <div
+            style={{
+              display: "flex",
+              borderRadius: "30px",
+              marginTop: "-0.2%",
+            }}
+            className="project-cardnew"
+          >
+            <div style={{ height: "100%", width: "50%" }}>
+              <video
+                autoPlay
+                muted
+                loop
+                style={{
+                  height: "100%",
+                  width: "100%",
+                  marginTop: "1%",
+                  marginLeft: "2%",
+                  borderRadius: "2px",
+                }}
+              >
+                <source src={video} type="video/mp4" />
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+            <div
+              style={{ marginLeft: "2%", width: "60%", color: "black" }}
+              className="project-bodynew"
+            >
+              <h3>Project Title</h3>
+              <p>Project description goes here...</p>
+              <h1> vishnu Hello World</h1>
+            </div>
+          </div>
         </div>
-      </div>
-
-      </div>
-      
-
-      <div className="glasseff">
-<div  style={{display:'flex',borderRadius:'30px',marginTop:'-0.2%'}} className="project-cardnew">
-       <div style={{height:'100%',width:'50%'}}>
-          <video autoPlay muted loop  style={{ height:'100%',width:'100%',marginTop:'1%',marginLeft:'2%',borderRadius:'2px'}}>
-            <source src={video} type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-          
-        </div>
-        <div style={{marginLeft:'2%',width:'60%',color:'black'}} className="project-bodynew">
-          <h3>Project Title</h3>
-          <p>Project description goes here...</p>
-          <h1> vishnu kena punda</h1>
-        </div>
-      </div>
-
-      </div>
-
-     
-
-
       </div>
     </Container>
   );
