@@ -4,7 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { GlobalStyle } from "./styles/global";
 import "react-toastify/dist/ReactToastify.css";
-import bg_video from "../src/assets/back-video.mp4";
+import bg_video from "./assets/back-video.mp4";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       {/* Content */}
       <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

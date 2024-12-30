@@ -3,7 +3,7 @@ import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import video from "../../assets/Tools.mp4";
+import video from "../../assets/back-video.mp4";
 import "./project.css";
 
 export function Project() {
