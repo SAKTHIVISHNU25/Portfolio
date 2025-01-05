@@ -17,7 +17,7 @@ export function Project() {
       title: "Activity-Based Education Application",
       video: video4,
       des: `Developed an innovative application designed to provide immersive, activity-based educational experiences for students
-            across multiple platforms, including <b style="font-size: 15px;">VR, mobile, web, and iOS</b>. The app integrates 
+            across multiple platforms, including <b style="font-size: 15px;">VR, Mobile, Web, and IOS</b>. The app integrates 
             interactive learning activities and educational simulations, allowing students to engage with content in a dynamic and 
             hands-on environment. Leveraged <b style="font-size: 15px;">Photon Unity Networking (PUN)</b> to enable real-time 
             multiplayer functionality, promoting collaboration and interaction among students. This application aims to enhance 
@@ -43,7 +43,7 @@ export function Project() {
       title: "Metaverse-Driven Online Meeting Platform",
       video: video3,
       des: `Developed an innovative online meeting platform resembling a metaverse, integrating Ready Player Me avatars for a 
-            personalized and immersive experience across <b style="font-size: 15px;">VR, mobile, and web</b>. Leveraged 
+            personalized and immersive experience across <b style="font-size: 15px;">VR, Mobile, Web</b>. Leveraged 
             <b style="font-size: 15px;">Photon Unity Networking (PUN)</b> to implement robust multiplayer functionality, ensuring 
             seamless real-time interaction among users. Designed to enhance remote collaboration, this platform combines cutting-edge 
             technology with intuitive user experiences, making it a versatile tool for meetings, social interactions, and virtual events.`,
@@ -62,7 +62,7 @@ export function Project() {
       title: "Heart Anatomy Learning App",
       video: video5,
       des: `Developed an interactive application designed to educate users about the human heart across multiple platforms, including 
-            <b style="font-size: 15px;">VR, mobile, web, and iOS</b>. The app features a dissection module that allows users to 
+            <b style="font-size: 15px;">VR, Mobile, Web, and IOS</b>. The app features a dissection module that allows users to 
             virtually <b style="font-size: 15px;">explore and dissect</b> the heart to understand its structure in detail. It also 
             includes <b style="font-size: 15px;">part identification and label identification</b> features to help users learn and 
             memorize the key components of the heart. With an intuitive, cross-platform interface, this app provides an immersive and 
