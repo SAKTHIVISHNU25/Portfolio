@@ -4,17 +4,17 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/ag.png";
-import shopify from "../../assets/vr.png";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
+import wordpress from "../../assets/java.png";
+import shopify from "../../assets/vrnew.png";
+import htmlIcon from "../../assets/augmented-reality.png";
+// import cssIcon from "../../assets/css-icon.svg";
+// import sassIcon from "../../assets/sass-icon.svg";
+// import jsIcon from "../../assets/arcore.png";
+import csharp from "../../assets/c-sharp.png";
+import reactIcon from "../../assets/aws.png";
 import unityIcon from "../../assets/unity.png";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+// import typescriptIcon from "../../assets/typescript-icon.svg";
+// import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
@@ -154,13 +154,13 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
+                // {
+                //   src: cssIcon,
+                //   width: 20,
+                //   height: 20,
+                // },
                 {
-                  src: cssIcon,
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: wordpress,
+                  src: csharp,
                   width: 20,
                   height: 20,
                 },
@@ -174,18 +174,18 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
-                {
-                  src: jsIcon,
-                  width: 20,
-                  height: 20,
-                },
+                // {
+                //   src: jsIcon,
+                //   width: 20,
+                //   height: 20,
+                // },
                 // {
                 //   "src": mysqlIcon,
                 //   "width": 20,
                 //   "height": 20
                 // },
                 {
-                  src: nodeIcon,
+                  src: wordpress,
                   width: 20,
                   height: 20,
                 },
@@ -194,26 +194,26 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
-                {
-                  src: sassIcon,
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: typescriptIcon,
-                  width: 20,
-                  height: 20,
-                },
+                // {
+                //   src: sassIcon,
+                //   width: 20,
+                //   height: 20,
+                // },
+                // {
+                //   src: typescriptIcon,
+                //   width: 20,
+                //   height: 20,
+                // },
                 // {
                 //   "src": vscodeIcon,
                 //   "width": 20,
                 //   "height": 20
                 // },
-                {
-                  src: vueIcon,
-                  width: 20,
-                  height: 20,
-                },
+                // {
+                //   src: vueIcon,
+                //   width: 20,
+                //   height: 20,
+                // },
               ],
               polygon: {
                 sides: 5,
