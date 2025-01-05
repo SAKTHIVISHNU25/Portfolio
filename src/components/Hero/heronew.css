@@ -15,4 +15,9 @@
     height: 100%;
     margin-bottom: 50px;
   }
-  
+  /* Mobile Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  .video{
+    height: 80vh;
+  }
+}
