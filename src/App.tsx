@@ -10,10 +10,10 @@ function App() {
   return (
     <div style={{ position: "relative" }}>
       {/* Background Video */}
-      <video
+      {/* <video
         src={bg_video}
         autoPlay
-        loop
+        // loop
         muted
         style={{
           position: "fixed", // Fixes the video in place
@@ -24,7 +24,7 @@ function App() {
           objectFit: "cover",
           zIndex: -1, // Keeps the video behind other content
         }}
-      />
+      /> */}
       {/* Global Styles */}
       <GlobalStyle />
       {/* Content */}
