@@ -23,7 +23,7 @@ export function About() {
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
             <p>
-              Hi, I'm Sakthivishnu, a passionate Unity developer with 2.4 years
+              Hi, I'm Sakthivishnu, a passionate Unity developer with 2.10 years
               of experience specializing in VR, AR, and game development. I am
               committed to creating immersive and interactive experiences that
               push the boundaries of technology.
