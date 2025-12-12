@@ -3,12 +3,16 @@ import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import video from "../../assets/guide.mp4";
+import video from "../../assets/ice_machine_comp.mp4";
 import video1 from "../../assets/inspection.mp4";
 import video2 from "../../assets/videocall.mp4";
 import video3 from "../../assets/Sammeta.mp4";
 import video4 from "../../assets/chem.mp4";
 import video5 from "../../assets/heart.mp4";
+import video6 from "../../assets/apollo_tyres_comp.mp4";
+import video7 from "../../assets/service_bricks_.mp4";
+import video8 from "../../assets/loto-compressed.mp4";
+
 import "./project.css";
 
 export function Project() {
@@ -49,14 +53,9 @@ export function Project() {
             technology with intuitive user experiences, making it a versatile tool for meetings, social interactions, and virtual events.`,
     },
     {
-      title: "Video Calling Remote Assistance App",
-      video: video2,
-      des: `Designed and developed an advanced video calling remote assistance app powered by AR to enable collaborative sessions 
-            and real-time problem-solving. The app allows users to share their AR environment, providing visual guidance and 
-            annotations during remote interactions. Integrated <b style="font-size: 15px;">AWS S3 buckets</b> for efficient cloud 
-            storage, enabling secure and scalable recording and retrieval of session data. Utilized <b style="font-size: 15px;">PHP</b> 
-            for server-side logic, managing API interactions and ensuring seamless data flow. This app offers a robust solution for 
-            industries requiring remote support, training, or troubleshooting, enhancing productivity while reducing response times.`,
+      title: "Apollo Tyres – VR Training & Assessment System",
+      video: video6,
+      des: `Developed a VR training solution in Unity using OpenXR to simulate Apollo Tyres’ Die Change procedure. The system includes a Tutorial Mode with guided steps and a Practice Mode for independent execution. Built an assessment engine that captures user actions, generates performance scores, and displays results on a dashboard for individual user tracking. The solution enhances training accuracy, consistency, and operator readiness.`,
     },
     {
       title: "Heart Anatomy Learning App",
@@ -68,6 +67,26 @@ export function Project() {
             memorize the key components of the heart. With an intuitive, cross-platform interface, this app provides an immersive and 
             hands-on learning experience, making it a valuable tool for students, medical professionals, and anyone interested in the 
             human cardiovascular system.`,
+    },
+    {
+      title: "VR Data Interaction System",
+      video: video7,
+      des: `Developed an immersive VR application that interacts with backend services to create and retrieve structured data. Users operate VR panels to trigger API actions, and the system displays the results dynamically inside the virtual environment. The project showcases real-time data handling, interactive VR UI design, and smooth integration between VR interfaces and backend systems.`,
+    },
+    {
+      title: "VR LOTO Safety Training System",
+      video: video8,
+      des: `Developed an immersive VR application designed to teach Lockout–Tagout (LOTO) and safe movement procedures inside an industrial environment. The system recreates a factory floor with realistic machinery and visual safety indicators. Users follow guided pathways, interact with equipment, and learn correct safety steps in a controlled virtual space. The project focuses on increasing situational awareness, reducing workplace risk, and providing an engaging way for operators to practice safety protocols.`,
+    },
+    {
+      title: "Video Calling Remote Assistance App",
+      video: video2,
+      des: `Designed and developed an advanced video calling remote assistance app powered by AR to enable collaborative sessions 
+            and real-time problem-solving. The app allows users to share their AR environment, providing visual guidance and 
+            annotations during remote interactions. Integrated <b style="font-size: 15px;">AWS S3 buckets</b> for efficient cloud 
+            storage, enabling secure and scalable recording and retrieval of session data. Utilized <b style="font-size: 15px;">PHP</b> 
+            for server-side logic, managing API interactions and ensuring seamless data flow. This app offers a robust solution for 
+            industries requiring remote support, training, or troubleshooting, enhancing productivity while reducing response times.`,
     },
   ];
 
