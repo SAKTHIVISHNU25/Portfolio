@@ -3,7 +3,7 @@ import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import video from "../../assets/ice_machine_comp.mp4";
+import video from "../../assets/ice machine_comp.mp4";
 import video1 from "../../assets/inspection.mp4";
 import video2 from "../../assets/videocall.mp4";
 import video3 from "../../assets/Sammeta.mp4";
