@@ -3,15 +3,15 @@ import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import video from "../../assets/ice_machine_comp_new.mp4";
+import video from "../../assets/ice_machine_comp.mp4";
 import video1 from "../../assets/inspection.mp4";
 import video2 from "../../assets/videocall.mp4";
 import video3 from "../../assets/Sammeta.mp4";
 import video4 from "../../assets/chem.mp4";
 import video5 from "../../assets/heart.mp4";
-import video6 from "../../assets/apollo_tyres_comp_new.mp4";
-import video7 from "../../assets/service_bricks_new.mp4";
-import video8 from "../../assets/loto-compressed_new.mp4";
+import video6 from "../../assets/apollo_tyres_comp.mp4";
+import video7 from "../../assets/service_bricks_.mp4";
+import video8 from "../../assets/loto-compressed.mp4";
 
 import "./project.css";
 
